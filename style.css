@@ -12,20 +12,78 @@ body {
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* ---------------header style--------------------- */
 .header {
   text-align: center;
+}
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.designation {
+  font-size: 24px;
+  font-weight: 600px;
+  margin: 5px;
+  color: gray;
 }
 .header ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
+}
+ul li {
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.address {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
 }
 
 hr {
   border-top: 2px solid gray;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 section h2 {
   text-align: center;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+p {
+  color: gray;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.p_title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.title_lang {
+  font-size: 16px;
+  font-weight: 600;
+  color: gray;
+  text-align: right;
+}
+.p_link {
+  margin-top: 5px;
+}
+.h_D {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.h_score {
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
+  margin-top: 10px;
 }
